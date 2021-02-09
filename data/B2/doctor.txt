@@ -1,0 +1,15 @@
+Doctor Klein: Good morning, Cecilia, how are you feeling today?
+Cecilia: I do not feel very well, Doctor Klein. I hope that you can treat my illness.
+Doctor Klein: I’m sorry that you feel very sick. Tell me some of your symptoms so that I can give you a proper diagnosis.
+Cecilia: I have not felt well since yesterday afternoon. The symptoms began with a headache and a gradual sore throat. I drank tea with lemon and honey, and I went to bed early. However, I am extremely exhausted, and I don’t feel any better today.
+Doctor Klein: I have seen these symptoms recently in some of my other patients. I’ll check your temperature and examine your throat in order to give you a proper diagnosis.
+Cecilia: Thank you, Doctor.
+Doctor Klein: Open up and say “Ahhhhhh...”
+Cecilia: “Ahhhhhh...”
+Doctor Klein: Oh, my! I can already see that your throat is very red. Your temperature of 100 degrees indicates that you are running a mild fever. I am afraid that you might have the flu.
+Cecilia: What is the best way to cure my symptoms?
+Doctor Klein: You will need plenty of rest, and you should drink fluids frequently in order to stay hydrated. You’ve also just started to show symptoms, so I can prescribe you a medication that can reduce fever and shorten the duration of your illness.
+Cecilia: Should I stay home from work as well?
+Doctor Klein: Yes, you should remain in bed until the fever breaks. You should also wait until 24 hours after the fever has broken before you return to work. You do not want to risk getting your coworkers sick as well.
+Cecilia: I suppose I will just take it easy and relax for a couple of days. Thank you, doctor, for all of your help!
+Doctor Klein: No problem! Try your best to rest for a couple of days. I hope you feel better soon!

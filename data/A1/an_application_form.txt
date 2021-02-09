@@ -1,0 +1,18 @@
+Library card application
+First name	MIKE
+Last name	ESPOSA-HERNANDEZ
+Date of birth	08/11/1991
+Address	4 CHARLES ROAD, GLOUCESTER
+Postcode	GL1 3ZE
+Phone	07796 345678
+Email	m.esposa@example.com
+I declare the information provided is correct.
+Signature Mike Esposa-Hernandez
+Date 03/07/2018
+ 
+Your checklist
+Have you got everything you need?
+[ ✔ ] a passport photo
+[ ✔ ] a copy of my passport or other photo ID
+[ ✔ ] proof of address
+Your card will be issued within 15 days and sent to the address provided.

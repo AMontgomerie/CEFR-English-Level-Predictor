@@ -1,0 +1,58 @@
+Production of orange-fleshed sweet potato (OFSP) in Tanzania is constrained by the underutilization of
+virus-free improved certified planting materials. The sustainable use of these planting materials leads to
+the constant demand of the planting materials by farmers which can be triggered from viable
+processing. We determine the viability of processing in the OFSP value chain and its contribution to the
+uptake of high-quality improved planting materials. Data for this study were collected by field survey
+method from 15 processors and 150 farmers. Purposive and three-stage random sampling methods
+were used in sampling. We adopted a mixed method of analysis using descriptive statistics, gross
+margin analysis, and econometric estimation of the multivariate probit model by means of a Simulated
+Maximum Likelihood (SML). We found no direct effect of processing to trigger the use of improved
+OFSP planting materials unless formalization of the supply arrangements between processors and
+farmers is institutionalized. However, it was economically viable to engage in the processing of OFSP.
+Processors were found to be generating a benefit of US$ 76/ton of OFSP processed with a margin to a
+total cost ratio of 19% implying a relatively low margin with significant processing costs. Seed renewal
+was low as 63.1% of the farmers used retained planting materials. Nevertheless, contractual
+arrangements with the processors increased the desire to use high-quality improved planting materials
+and the likelihood to source them from research institutes (p<0.05). Additionally, access to credit and a
+high level of specialization influenced farmers to source planting materials from local vine multipliers.
+Creation of market linkage and formalization of supply arrangements between processors and farmers
+and awareness creation on the economic benefits of seed renewal will increase the benefits generated
+by processors. This may contribute to the uptake of high-quality improved OFSP planting materials in
+Tanzania.
+Key words: Economic viability, orange fleshed sweet potato, processing, value chain, market linkage.
+INTRODUCTION
+Sweet potato (Ipomoea batatas Lam) is one of the most
+important food crops worldwide. In Africa, the crop is
+used for food and income though its marketing is limited
+by its short shelf life (Rees et al., 2001; Oladoye et al.,
+2016; Flores, 2018). In Tanzania, sweet potato is an
+important food security root crop after cassava being
+grown by 1.08 million smallholder farmers (NBS, 2017).
+With its annual production of 4.2 million tons per annum,
+Tanzania is the leading producer in Africa, and accounts
+for 3.8% of the world’s sweet potato production (FAO,
+2020).
+The crop has consistent reliable yields, due to the
+reason that it can be grown on marginal land, and thus
+suitable for areas with long dry seasons. The crop is
+useful disaster recovery crop when other crops fail.
+Sweet potatoes are also important source of food in the
+homes of the rural and urban poor and important income
+source for households in Tanzania. Sweet potato lies
+within its adaptability to marginal conditions such as
+drought, low soil fertility, and thus make it ranked highly
+as food security crop when local staple crops such as
+maize and rice fail (HKI, 2012; Waziri, 2013).
+Tanzania ranks fifth in the world in terms of sweet potato
+production (HKI, 2012). Tanzania’s production data for
+sweet potato show that there had been increasing trends
+in the production and area under sweet potato production
+in the country from year 2008 to 2018 (NBS, 2020).
+However, there is no disaggregated data that would
+indicate the level of Orange Fleshed Sweet Potatoes
+(OFSP) and the White Fleshed Sweet Potatoes (WFSP)
+production. OFSP are rich in beta carotene, a vitamin A
+precursor for improving the nutrition of people especially
+children under five years of age. They have high content
+of carotenoids and pleasant sensory characteristics with
+color (Neela and Fanta, 2019). 

@@ -1,0 +1,12 @@
+A
+In 2010, the planetary defence team at NASA had identified and logged 90 per cent of the asteroids near Earth measuring 1km wide. These 'near-Earth objects', or NEOs, are the size of mountains and include anything within 50 million kilometres of Earth's orbit. With an estimated 50 left to log, NASA says none of the 887 it knows about are a significant danger to the planet.
+B
+Now NASA is working towards logging some of the smaller asteroids, those measuring 140 metres wide or more. Of the 25,000 estimated asteroids of this size, so far about 8,000 have been logged, leaving 17,000 unaccounted for. Considering that a 19-metre asteroid that exploded above the city of Chelyabinsk in Russia in 2013 injured 1,200 people, these middle-sized asteroids would be a serious danger if they enter Earth's orbit.
+C
+Whether NASA can find the remaining middle-sized NEOs depends on getting the money to build NEOCam, a 0.5-metre space telescope which would use infrared light to locate asteroids. If it did get the money, it could probably achieve its goal in ten years. Once logged, the planetary defence team would still need to work out how to defend the planet against being hit by the truly worrying asteroids – the PHAs.
+D
+'Potentially Hazardous Asteroids' are rocks close enough to pass within 7.5 million kilometres of Earth's orbit. NASA has created a map of 1,400 PHAs, none of which are expected to be a threat in the next one hundred years. With technology already available, NASA can track these objects and make predictions about possible impact, at which point two defence solutions could be launched.
+E
+The first is DART – the Double Asteroid Redirection Test. Plans are scheduled to test DART on the moon of an asteroid called Didymos. 'Didymoon' is 150 metres wide, orbiting its 800-metre mother, and hopefully the impact of DART will knock it out of its orbit enough for Earth-based telescopes to pick up.
+F
+Another suggested defence against a PHA on course to hit Earth is to blow it up using a nuclear weapon. It may sound like a plot from a film, and it was the subject of the 1998 film Armageddon, but the Hypervelocity Asteroid Mitigation Mission for Emergency Response (HAMMER) is a genuine NASA proposal. The eight-ton rockets would be fired at an approaching asteroid with the hope of bumping it off course. If the asteroid was too close to Earth for this plan to work, the rockets would carry nuclear bombs to blow it up instead.

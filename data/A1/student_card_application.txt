@@ -1,0 +1,15 @@
+Student ID card application
+First name: Samia
+Last name: Khan
+Date of birth: 09/10/1992
+Address: 5 Ledger Road, Cardiff
+Postcode: CF10 5RE
+Nationality: Canadian
+I declare that the information provided is correct.
+Signature: Samia Khan
+Date: 28/02/2019
+Your checklist – have you got everything you need?
+[ ✔ ] a passport photo
+[ ✔ ] a copy of your passport or other photo ID
+[ ✔ ] proof of student status e.g. a letter from your university
+Your card will be issued within 30 days and sent to the address provided.

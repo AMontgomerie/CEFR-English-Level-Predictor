@@ -1,0 +1,16 @@
+To: steve@red-ribbon.com
+From: sanjit@red-ribbon.com
+Subject: Process issues in the team
+ 
+Dear Steve,
+Since you requested in our recent line management meeting for me to inform you of any issues, I'm writing to tell you about a recent incident. Last week, after experiencing some difficulties with the order processing system, tensions arose in the team and a confrontation occurred between two team members.
+I've outlined what led to this incident below:
+1. There was a system update that we weren't expecting last week. The update slightly changed the interface menu. Everything is still there but people have said it's not easy to find some of the menu items they're looking for.
+2. There seems to have been a period of time after the update that new entries weren't being saved. This led to some work being lost. We worked overtime to catch up on everything and all orders have been processed. But as a consequence there was a general feeling of pressure and tiredness in the team.
+As a result of these challenging circumstances there was some tension, leading to a disagreement between Johann and Maria. Johann lost his temper and made some inappropriate remarks to Maria.
+I met with them both in order to reflect on and resolve the conflict. Johann has apologised for his behaviour and he realises that Maria could have chosen to start disciplinary proceedings. They have worked together on a plan to improve communication and therefore alleviate tensions within the team.
+I've also asked our colleagues in the IT department to run a training session for us all on how to best use the system in light of the recent software upgrades.
+There's no specific action for you to take, but I felt it important that you're kept in the loop.
+I'll keep you posted.
+Regards,
+Sanjit

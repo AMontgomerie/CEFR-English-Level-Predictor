@@ -1,0 +1,23 @@
+Philosophers generally agree that we can be justified in believing 15bi and 15biii only empirically. Yet many believe that they are necessarily true. If they are necessarily true, that would mean that it’s false that we can be justified in believing necessary truths only a priori. But some philosophers think that 15bi and 15biii are not necessary truths and the relevant necessary truth that we can know a priori is that the essence of any type of matter is given by the basic elements of which it is composed. On this view, in the case of water and rubies, we discover empirically what those basic elements are and the propositions that state those discoveries are contingent. Philosophers who hold that 15bi and 15biii do express necessary truths usually think that there are descriptions that fix the reference of the terms, for example, for water, the description,
+the stuff, whatever it is, that, in the actual world, has the properties of quenching thirst, putting out certain fires, falling from the clouds as rain, filling the lakes and rivers, etc.
+While the meaning of “water” is given by this reference-fixing description, and can be known a priori, the essence of water must be discovered empirically. The meaning of natural kind terms does not give the essence of the kind directly in the way it does with “bachelor” and “vixen”.
+One might think that 15a can be justified only empirically, but gemologists seem to think that it is conceptually necessary that rubies are red, that is, that the meaning of “ruby” requires that rubies be red. So given how gemologists use “ruby”, 15a is knowable a priori. The notion of a ruby seems to be a hybrid notion: its color is knowable a priori but its material essence as given in 15bi is knowable only empirically.
+While it is widely believed that some necessary truths are capable of justification and can be known only empirically (e.g., “Water is H2O”), some contingent truths also seem justifiable, and knowable, a priori. Saul Kripke proposed that “the standard meter stick, S, in Paris is a meter long at 
+t
+0
+” is such an example (Kripke 1972: 274–275). “The length of S in the actual world at 
+t
+0
+” rigidly designates that length, that is, it refers to length L in every possible world. The reference of “one meter” is given by that reference-fixing description, so “one meter” rigidly designates L. However, “the length of S at 
+t
+0
+” does not rigidly designate any particular length since at 
+t
+0
+ in other possible worlds S will be longer or shorter than L. So the proposition that “S is a meter long at 
+t
+0
+” is contingent because in other possible worlds that very same stick will be shorter or longer than it was in the actual world at that time. Still, we can know a priori, that is, independent of any empirical evidence, that “S is a meter long at 
+t
+0
+” is true in the actual world given that we know how the reference of “one meter” is fixed by a description that refers to the length of S in the actual world. If empirical evidence plays any role, it is only insofar as we need it to know that there really is a stick, S, that was designated as the meter at some particular time and place.

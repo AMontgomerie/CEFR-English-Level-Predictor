@@ -1,0 +1,30 @@
+Light propagating in the vicinity of astrophysical compact objects, like neutron stars and black holes, is affected by the gravitational field. It has been demonstrated that the general relativistic effects might be important for understanding the features of the radiation
+coming from the neutron star like objects [1, 2, 3]. The
+gravitational redshift and bending of light rays emitted
+by a compact object affect the form and spectrum of the
+observed signals. For the emission of light from the vicinity of a black hole these effects are more profound than
+for neutron stars. For example, the line broadening of Xray observed by the ASCA satellite can be explained by
+the strong gravitational effect on the light emitted from
+the accretion disk located near to the central black hole
+[4, 5].
+Astrophysical black holes are believed to be formed
+as a result of the gravitational collapse of massive stars
+[6]. Then it is natural to expect that the radiation emitted during the gravitational collapse is also affected by
+the strong gravity. For a spherical collapse and continuous emission of light this effect was studied in details
+[7, 8, 9]. Recently the light curves for collapsing objects
+were studied in a slightly different set up [10] assuming
+that the radiation has a profile of a sharp in time pulse.
+Such radiation may occur during the collapse of a star
+when its matter density becomes much higher than the
+nuclear density. Under these conditions hadronic phase
+transitions are expected [11] which may result in sharpin-time emission of massless particles (photons and neutrino) [12].
+In this work, we consider the radiation emitted by a
+collapsing star during a finite time interval and calculate
+light curves and the spectrum of this radiation as seen by
+a distant observer. As in the previous work [10], we adopt
+a simplified model of a freely falling spherical surface and
+assume that the radiation is originally monochromatic.
+But instead of instant radiation, we focus on the radiation emitted during the finite interval of time. The main
+goal of this study is to analyze how one can extract information about the characteristics of a collapsing object
+(its mass and radius) from the observed spectra and light
+curves.

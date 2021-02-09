@@ -1,0 +1,45 @@
+Context. Water is a key molecule in the physics and chemistry of star and planet formation, but it is difficult to observe from Earth. The Herschel
+Space Observatory provided unprecedented sensitivity as well as spatial and spectral resolution to study water. The Water In Star-forming regions
+with Herschel (WISH) key program was designed to observe water in a wide range of environments and provide a legacy data set to address its
+physics and chemistry.
+Aims. The aim of WISH is to determine which physical components are traced by the gas-phase water lines observed with Herschel and to quantify
+the excitation conditions and water abundances in each of these components. This then provides insight into how and where the bulk of the water
+is formed in space and how it is transported from clouds to disks, and ultimately comets and planets.
+Methods. Data and results from WISH are summarized together with those from related open time programs. WISH targeted ∼80 sources along
+the two axes of luminosity and evolutionary stage: from low- to high-mass protostars (luminosities from <1 to > 105 L) and from pre-stellar
+cores to protoplanetary disks. Lines of H2O and its isotopologs, HDO, OH, CO, and [O I], were observed with the HIFI and PACS instruments,
+complemented by other chemically-related molecules that are probes of ultraviolet, X-ray, or grain chemistry. The analysis consists of coupling
+the physical structure of the sources with simple chemical networks and using non-LTE radiative transfer calculations to directly compare models
+and observations.
+Results. Most of the far-infrared water emission observed with Herschel in star-forming regions originates from warm outflowing and shocked
+gas at a high density and temperature (> 105
+cm−3
+, 300–1000 K, v ∼ 25 km s−1
+), heated by kinetic energy dissipation. This gas is not probed by
+single-dish low-J CO lines, but only by CO lines with Jup > 14. The emission is compact, with at least two different types of velocity components
+seen. Water is a significant, but not dominant, coolant of warm gas in the earliest protostellar stages. The warm gas water abundance is universally
+low: orders of magnitude below the H2O/H2 abundance of 4 × 10−4
+expected if all volatile oxygen is locked in water. In cold pre-stellar cores and
+outer protostellar envelopes, the water abundance structure is uniquely probed on scales much smaller than the beam through velocity-resolved
+line profiles. The inferred gaseous water abundance decreases with depth into the cloud with an enhanced layer at the edge due to photodesorption
+of water ice. All of these conclusions hold irrespective of protostellar luminosity. For low-mass protostars, a constant gaseous HDO/H2O ratio of
+∼0.025 with position into the cold envelope is found. This value is representative of the outermost photodesorbed ice layers and cold gas-phase
+chemistry, and much higher than that of bulk ice. In contrast, the gas-phase NH3 abundance stays constant as a function of position in low-mass
+pre- and protostellar cores. Water abundances in the inner hot cores are high, but with variations from 5 × 10−6
+to a few ×10−4
+for low- and
+high-mass sources. Water vapor emission from both young and mature disks is weak.
+Conclusions. The main chemical pathways of water at each of the star-formation stages have been identified and quantified. Low warm water
+abundances can be explained with shock models that include UV radiation to dissociate water and modify the shock structure. UV fields up
+to 102 − 103
+times the general interstellar radiation field are inferred in the outflow cavity walls on scales of the Herschel beam from various
+hydrides. Both high temperature chemistry and ice sputtering contribute to the gaseous water abundance at low velocities, with only gas-phase (re-
+)formation producing water at high velocities. Combined analyses of water gas and ice show that up to 50% of the oxygen budget may be missing.
+In cold clouds, an elegant solution is that this apparently missing oxygen is locked up in larger µm-sized grains that do not contribute to infrared
+ice absorption. The fact that even warm outflows and hot cores do not show H2O at full oxygen abundance points to an unidentified refractory
+component, which is also found in diffuse clouds. The weak water vapor emission from disks indicates that water ice is locked up in larger pebbles
+early on in the embedded Class I stage and that these pebbles have settled and drifted inward by the Class II stage. Water is transported from clouds
+to disks mostly as ice, with no evidence for strong accretion shocks. Even at abundances that are somewhat lower than expected, many oceans
+of water are likely present in planet-forming regions. Based on the lessons for galactic protostars, the low-J H2O line emission (Eup < 300 K)
+observed in extragalactic sources is inferred to be predominantly collisionally excited and to originate mostly from compact regions of current star
+formation activity. Recommendations for future mid- to far-infrared missions are made.

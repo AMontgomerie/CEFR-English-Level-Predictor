@@ -1,0 +1,25 @@
+University accommodation preference form
+First name	Lucy
+Surname	Watts
+Student number	S4085301
+Gender	female  
+Date of birth	25/07/2000
+Nationality	British
+Email address	lucyhelenwatts@example.com
+Phone	0123 456 789
+What type of accommodation would you prefer?
+Single room with bathroom ✔
+Single room with shared bathroom (with two or more other students)
+Shared room (with one other student)
+Family flat (adults __  children __)
+Which location would you prefer?
+On-campus ✔
+Off-campus
+Are you a smoker?
+Yes
+No ✔
+Do you have any health needs that affect your housing request?
+Yes ✔   (If yes, a university officer will contact you for more information.)
+No
+Please list your interests and hobbies, for example sport, music or other social interests.  You can also say if you prefer to stay up late as this information may be useful when we are allocating rooms. Please note that we cannot guarantee we will be able to offer accommodation to match your preferences.
+I played football for my sixth-form school and I am hoping to join a university team. I'm a morning person and I get up early to train and go to the gym. So I would prefer to share with other people who don't like late nights either! Also I am vegetarian and, if possible, I would prefer to share a kitchen with other non-meat eaters.

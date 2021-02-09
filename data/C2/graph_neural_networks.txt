@@ -1,0 +1,89 @@
+Deep learning has revolutionized many machine
+learning tasks in recent years, ranging from image classification
+and video processing to speech recognition and natural language
+understanding. The data in these tasks are typically represented
+in the Euclidean space. However, there is an increasing number
+of applications where data are generated from non-Euclidean domains and are represented as graphs with complex relationships
+and interdependency between objects. The complexity of graph
+data has imposed significant challenges on existing machine
+learning algorithms. Recently, many studies on extending deep
+learning approaches for graph data have emerged. In this survey,
+we provide a comprehensive overview of graph neural networks
+(GNNs) in data mining and machine learning fields. We propose
+a new taxonomy to divide the state-of-the-art graph neural
+networks into four categories, namely recurrent graph neural
+networks, convolutional graph neural networks, graph autoencoders, and spatial-temporal graph neural networks. We further
+discuss the applications of graph neural networks across various
+domains and summarize the open source codes, benchmark data
+sets, and model evaluation of graph neural networks. Finally,
+we propose potential research directions in this rapidly growing
+field.
+Index Terms—Deep Learning, graph neural networks, graph
+convolutional networks, graph representation learning, graph
+autoencoder, network embedding
+I. INTRODUCTION
+T
+HE recent success of neural networks has boosted research on pattern recognition and data mining. Many
+machine learning tasks such as object detection [1], [2],
+machine translation [3], [4], and speech recognition [5], which
+once heavily relied on handcrafted feature engineering to
+extract informative feature sets, has recently been revolutionized by various end-to-end deep learning paradigms, e.g.,
+convolutional neural networks (CNNs) [6], recurrent neural
+networks (RNNs) [7], and autoencoders [8]. The success of
+deep learning in many domains is partially attributed to the
+rapidly developing computational resources (e.g., GPU), the
+availability of big training data, and the effectiveness of deep
+learning to extract latent representations from Euclidean data
+(e.g., images, text, and videos). Taking image data as an
+Z. Wu, F. Chen, G. Long, C. Zhang are with Centre for Artificial Intelligence, FEIT, University of Technology Sydney, NSW 2007, Australia (Email: zonghan.wu-3@student.uts.edu.au; fengwen.chen@student.uts.edu.au;
+guodong.long@uts.edu.au; chengqi.zhang@uts.edu.au).
+S. Pan is with Faculty of Information Technology, Monash University,
+Clayton, VIC 3800, Australia (Email: shirui.pan@monash.edu).
+P. S. Yu is with Department of Computer Science, University of Illinois at
+Chicago, Chicago, IL 60607-7053, USA (Email: psyu@uic.edu)
+Corresponding author: Shirui Pan.
+Manuscript received Dec xx, 2018; revised Dec xx, 201x.
+example, we can represent an image as a regular grid in
+the Euclidean space. A convolutional neural network (CNN)
+is able to exploit the shift-invariance, local connectivity, and
+compositionality of image data [9]. As a result, CNNs can
+extract local meaningful features that are shared with the entire
+data sets for various image analysis.
+While deep learning effectively captures hidden patterns of
+Euclidean data, there is an increasing number of applications
+where data are represented in the form of graphs. For examples, in e-commence, a graph-based learning system can
+exploit the interactions between users and products to make
+highly accurate recommendations. In chemistry, molecules
+are modeled as graphs, and their bioactivity needs to be
+identified for drug discovery. In a citation network, papers
+are linked to each other via citationships and they need to
+be categorized into different groups. The complexity of graph
+data has imposed significant challenges on existing machine
+learning algorithms. As graphs can be irregular, a graph may
+have a variable size of unordered nodes, and nodes from a
+graph may have a different number of neighbors, resulting
+in some important operations (e.g., convolutions) being easy
+to compute in the image domain, but difficult to apply to
+the graph domain. Furthermore, a core assumption of existing
+machine learning algorithms is that instances are independent
+of each other. This assumption no longer holds for graph data
+because each instance (node) is related to others by links of
+various types, such as citations, friendships, and interactions.
+Recently, there is increasing interest in extending deep
+learning approaches for graph data. Motivated by CNNs,
+RNNs, and autoencoders from deep learning, new generalizations and definitions of important operations have been
+rapidly developed over the past few years to handle the complexity of graph data. For example, a graph convolution can
+be generalized from a 2D convolution. As illustrated in Figure
+1, an image can be considered as a special case of graphs
+where pixels are connected by adjacent pixels. Similar to 2D
+convolution, one may perform graph convolutions by taking
+the weighted average of a node’s neighborhood information.
+There are a limited number of existing reviews on the topic
+of graph neural networks (GNNs). Using the term geometric
+deep learning, Bronstein et al. [9] give an overview of deep
+learning methods in the non-Euclidean domain, including
+graphs and manifolds. Although it is the first review on GNNs,
+this survey mainly reviews convolutional GNNs. Hamilton
+et al. [10] cover a limited number of GNNs with a focus
+on addressing the problem of network embedding. Battaglia
+et al. [11] position graph networks as the building blocks

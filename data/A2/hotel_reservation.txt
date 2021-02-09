@@ -1,0 +1,15 @@
+Receptionist: Good afternoon! This is Capitol Hotels in Washington, D.C. How may I help you?
+Mr. Abrams: Hi, I’d like to schedule a reservation for this upcoming weekend from Friday night until Sunday.
+Receptionist: Sure! Let me check and see what rooms are available. Do you need a room with one bed or two?
+Mr. Abrams: My wife and I will be visiting the city, but a room with one bed will be just fine.
+Receptionist: Alright... It looks like we have several rooms available. Would you care for a room with a balcony?
+Mr. Abrams: A single room with no balcony will suit our needs just fine. I did notice on your website that you have a pool and an exercise room. Are these facilities available for all hotel guests?
+Receptionist: Yes, all hotel guests are allowed access to those facilities. The hotel stay also includes breakfast. We have a restaurant on-site that also serves lunch and dinner, but those meals are not included in your lodging fee.
+Mr. Abrams: Okay, that’s fine. What time are both check-in and check-out?
+Receptionist: Check-in for you on Friday can be any time after 3:00 p.m. Check-out will be on Sunday before noon.
+Mr. Abrams: Sounds great!
+Receptionist: I am glad that I could help you today. Is there anything else that you need at this point in time?
+Mr. Abrams: Would you like my credit card information now, or can I take care of that upon my arrival to the hotel’s reception desk?
+Receptionist: We can handle payment upon your arrival on Friday. We look forward to seeing you then!
+Mr. Abrams: Thank you! I look forward to my stay.
+Receptionist: Enjoy the rest of your week!

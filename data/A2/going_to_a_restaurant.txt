@@ -1,0 +1,15 @@
+Sandra and Paul are at a steak restaurant. A waiter greets them.
+"Do you know what you would like to drink?" the waiter asks.
+“Water and orange juice,” Sandra says.
+"Thank you. Here are your menus," the waiter says.
+The waiter brings water for Paul and orange juice for Sandra.
+"What would you like to order?" the waiter asks.
+"I would like a 12-ounce steak and mashed potatoes," Paul says.
+"The same thing, but with green beans," Sandra says.
+"And two orders of garlic bread," Paul says.
+"Great. You should have it in soon," the waiter says.
+The waiter returns after an hour.
+“Sorry for your wait. Here are two orders of 12-ounce steaks with mashed potatoes and garlic bread,” the waiter says.
+"I asked for green beans with mine," Sandra says.
+"I'm sorry, I’ll get those for you," the waiter says.
+The waiter quickly returns with Sandra's green beans.

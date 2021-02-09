@@ -1,0 +1,13 @@
+Hello, please connect me to Tech Support.
+This is Tech Support, how may I help you?
+I am having problems with my Internet service.
+What seems to be the problem?
+None of my wireless devices are connecting to the Wi-Fi.
+I see. Have you tried disconnecting and reconnecting the modem?
+No, how do I do that?
+Simply unplug the modem for fifteen seconds.
+Alright. I plugged it in again.
+Are all of the lights back on the modem?
+Yes, they're all green!
+Your devices should be able to connect easily now.
+Oh, they're working perfectly! Thank you!

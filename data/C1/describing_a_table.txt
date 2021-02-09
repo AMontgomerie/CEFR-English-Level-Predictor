@@ -1,0 +1,12 @@
+
+Language	Number of people learning the language	Number of native speakers	Number of countries where the language is spoken
+English	1.5 billion	527 million	101
+French	82 million	118 million	51
+Chinese	30 million	1.39 billion	33
+Spanish	14.5 million	389 million	31
+Italian	8 million	67 million	29
+Japanese	3 million	123 million	25
+The table illustrates some interesting facts about some of the world's most popular languages to learn. It allows comparisons between the number of people who study a language versus those who speak it as a mother tongue, and shows how many countries have speakers of each of the languages.
+The prominence of English is striking. 1.5 billion people are learning English compared to only 82 million studying the second most popular language to learn, French. English is spoken in 101 countries, roughly twice as many as French and three times more than Chinese. English is the only language with more learners than native speakers.
+In terms of native speakers, Chinese is the most spoken language, more than double English with 1.39 billion. It is the third most popular language to learn with 30 million learners. Spanish has over five times more native speakers than Italian, but proportionally fewer learners at 14.5 million for Spanish and 8 million for Italian. As for Japanese, it is the least studied language of those given with 3 million learners.
+Overall, more people are learning English than the other languages combined and English is spoken in the highest number of countries. However, Chinese has by far the greatest number of native speakers. There seems to be little correlation between how many native speakers there are of a language and the number of learners, but there is a stronger link between the number of learners and how many countries have speakers.

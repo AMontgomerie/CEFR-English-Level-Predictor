@@ -1,0 +1,56 @@
+Nairobi National Park is a protected ecosystem where various types of wildlife find hiding place. The
+park has in the recent past experienced destruction through construction of a standard gauge railway
+(SGR) line and a highway called the Southern bypass. These developments raise concern with the
+possibility that their combined environmental cost being enormous. This study sought to determine the
+willingness to pay (WTP) for the restoration of the park attributes using discrete choice experiment. The
+focus was on the attributes of (1) wildlife population and diversity of species, (2) wildlife movement in
+dispersion and migration areas, (3) vegetation density and diversity, (4) security of wildlife and people,
+and (5) environmental safety and quality. The data used was collected from 93 students of Kisii
+University, Nairobi campus. A price attribute in form of an increase in gate fee was included to elicit
+WTP estimates. Multinomial logit regression estimates indicated that respondents were WTP for the
+restoration of all the attributes except attribute 4. Attributes 1 and 2 elicited the highest WTP and could
+be the most affected by the two projects. Middle-aged respondents with stable jobs were likely to pay
+more for the restoration of the attributes compared to students and the youth. Based on the findings,
+the government could consider relocating the park to a place with better environmental attributes.
+Key words: Nairobi National Park, ecosystem, discrete choice experiment, willingness to pay, park attributes,
+Multinomial logit.
+INTRODUCTION
+Nairobi National Park (NNP) ecosystem provides
+numerous use benefits (direct and indirect) and non-use
+benefits that include existence, option and bequest
+values. The Millennium Ecosystem Assessment (2005)
+defines ecosystem as a complex and dynamic
+environment where living organisms (plants, animals and
+microorganisms) and non-living organisms interact and
+function as a unit. An ecosystem provides services to
+human beings that the World Resources Institute (2005)
+defines as benefits.
+The park is Kenya’s oldest dating back to 1946. It
+measures approximately 117 km2
+and is situated at 7 km
+south of Nairobi’s central business district (GoK, 2012).
+Perhaps Kenya is the only country in the world with a
+national park in its capital city. According to the Kenya
+Wildlife Service (KWS), the park is home to over 100
+mammalian species including the endangered black
+rhino, four of the big five wildlife (lion, buffalo, leopard
+*Corresponding author. E-mail: mercy.godwille@gmail.com.
+Author(s) agree that this article remain permanently open access under the terms of the Creative Commons Attribution
+License 4.0 International License
+28 J. Dev. Agric. Econ.
+and rhino) and over 400 species of migratory and
+endemic bird species. The park also, provides sites for
+wildlife and bird viewing, picnics, campsites and walking
+trails. The park currently charges gate fee of Ksh 430 to
+citizens and Ksh 4300 to foreigners. Approximately
+278,700 tourists, both local and international, visited the
+park in 2017, this makes the park a significant contributor
+to the tourism industry (KNBS, 2018).
+Nairobi National Park is protected and regulated by The
+Constitution of Kenya (2010), the Wildlife Conservation
+and Management Act (2013) and the Environmental
+Management and Conservation Act (1999). These
+statutes provide the legal framework for protection,
+sustainable management and use of the country’s
+environment and natural resources (GoK, 1999, 2010,
+2013).

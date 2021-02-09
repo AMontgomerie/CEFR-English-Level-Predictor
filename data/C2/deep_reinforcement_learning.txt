@@ -1,0 +1,100 @@
+Deep reinforcement learning is poised to revolutionise the field of AI and represents a step towards building
+autonomous systems with a higher level understanding of the
+visual world. Currently, deep learning is enabling reinforcement
+learning to scale to problems that were previously intractable,
+such as learning to play video games directly from pixels. Deep
+reinforcement learning algorithms are also applied to robotics,
+allowing control policies for robots to be learned directly from
+camera inputs in the real world. In this survey, we begin with
+an introduction to the general field of reinforcement learning,
+then progress to the main streams of value-based and policybased methods. Our survey will cover central algorithms in
+deep reinforcement learning, including the deep Q-network,
+trust region policy optimisation, and asynchronous advantage
+actor-critic. In parallel, we highlight the unique advantages of
+deep neural networks, focusing on visual understanding via
+reinforcement learning. To conclude, we describe several current
+areas of research within the field.
+I. INTRODUCTION
+One of the primary goals of the field of artificial intelligence
+(AI) is to produce fully autonomous agents that interact with
+their environments to learn optimal behaviours, improving over
+time through trial and error. Crafting AI systems that are
+responsive and can effectively learn has been a long-standing
+challenge, ranging from robots, which can sense and react
+to the world around them, to purely software-based agents,
+which can interact with natural language and multimedia.
+A principled mathematical framework for experience-driven
+autonomous learning is reinforcement learning (RL) [135]. Although RL had some successes in the past [141, 129, 62, 93],
+previous approaches lacked scalablity and were inherently
+limited to fairly low-dimensional problems. These limitations
+exist because RL algorithms share the same complexity issues as other algorithms: memory complexity, computational
+complexity, and in the case of machine learning algorithms,
+sample complexity [133]. What we have witnessed in recent
+years—the rise of deep learning, relying on the powerful
+function approximation and representation learning properties
+of deep neural networks—has provided us with new tools to
+overcoming these problems.
+The advent of deep learning has had a significant impact
+on many areas in machine learning, dramatically improving
+the state-of-the-art in tasks such as object detection, speech
+recognition, and language translation [70]. The most important
+property of deep learning is that deep neural networks can
+automatically find compact low-dimensional representations
+(features) of high-dimensional data (e.g., images, text and
+audio). Through crafting inductive biases into neural network
+architectures, particularly that of hierarchical representations,
+machine learning practitioners have made effective progress
+in addressing the curse of dimensionality [15]. Deep learning
+has similarly accelerated progress in RL, with the use of
+deep learning algorithms within RL defining the field of
+“deep reinforcement learning” (DRL). The aim of this survey
+is to cover both seminal and recent developments in DRL,
+conveying the innovative ways in which neural networks can
+be used to bring us closer towards developing autonomous
+agents. For a more comprehensive survey of recent efforts in
+DRL, including applications of DRL to areas such as natural
+language processing [106, 5], we refer readers to the overview
+by Li [78].
+Deep learning enables RL to scale to decision-making
+problems that were previously intractable, i.e., settings with
+high-dimensional state and action spaces. Amongst recent
+work in the field of DRL, there have been two outstanding
+success stories. The first, kickstarting the revolution in DRL,
+was the development of an algorithm that could learn to play
+a range of Atari 2600 video games at a superhuman level,
+directly from image pixels [84]. Providing solutions for the
+instability of function approximation techniques in RL, this
+work was the first to convincingly demonstrate that RL agents
+could be trained on raw, high-dimensional observations, solely
+based on a reward signal. The second standout success was
+the development of a hybrid DRL system, AlphaGo, that
+defeated a human world champion in Go [128], paralleling the
+historic achievement of IBM’s Deep Blue in chess two decades
+earlier [19] and IBM’s Watson DeepQA system that beat the
+best human Jeopardy! players [31]. Unlike the handcrafted
+rules that have dominated chess-playing systems, AlphaGo
+was composed of neural networks that were trained using
+supervised and reinforcement learning, in combination with
+a traditional heuristic search algorithm.
+DRL algorithms have already been applied to a wide range
+of problems, such as robotics, where control policies for robots
+can now be learned directly from camera inputs in the real
+world [74, 75], succeeding controllers that used to be handengineered or learned from low-dimensional features of the
+robot’s state. In a step towards even more capable agents,
+DRL has been used to create agents that can meta-learn (“learn
+to learn”) [29, 156], allowing them to generalise to complex
+visual environments they have never seen before [29]. In
+Figure 1, we showcase just some of the domains that DRL
+has been applied to, ranging from playing video games [84]
+to indoor navigation [167].
+Video games may be an interesting challenge, but learning
+how to play them is not the end goal of DRL. One of the
+driving forces behind DRL is the vision of creating systems
+that are capable of learning how to adapt in the real world.
+From managing power consumption [142] to picking and
+stowing objects [75], DRL stands to increase the amount
+of physical tasks that can be automated by learning. However, DRL does not stop there, as RL is a general way of
+approaching optimisation problems by trial and error. From
+designing state-of-the-art machine translation models [168] to
+constructing new optimisation functions [76], DRL has already
+been used to approach all manner of machine learning tasks

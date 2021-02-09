@@ -1,0 +1,12 @@
+DEPARTURES
+Time	Flight	Destination	Gate	Remarks
+10:45	XZ 3265	Chennai	17	Departed
+10:50	SQ 0972	Amsterdam	23	Departed
+11:00	SQ 2509	Mexico City	19	Departed
+11:05	RT 9122	Buenos Aires	34	Cancelled
+11:10	XZ 6005	Los Angeles	05	Final call
+11:20	QE 0078	Beijing	33	Final call
+11:25	TY 2053	Christchurch	56	Delayed
+11:25	ER 7452	Seoul	25	Boarding
+11:30	XZ 0352	Moscow	12	Boarding
+11:35	XZ 0569	Kuala Lumpur	27	Gate change

@@ -1,0 +1,12 @@
+Miss, you have been using the computer for over an hour now.
+I know, I'm sorry.
+Are you looking for something?
+I'm researching for my project.
+Can you come back tomorrow? Your daily computer limit time is up.
+I don't have a computer at home.
+I'm sorry to hear that, but other people need to use the computer, too.
+My project is due very soon. I need to research.
+How about books? This is a library after all.
+I looked for books on my project. They're not good at all.
+Maybe you don't know how to look for good books. I'll help you.
+Thank you. I appreciate it.

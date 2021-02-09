@@ -1,0 +1,54 @@
+The orbital parameters of dark matter (DM) subhaloes play an essential role in determining
+their mass-loss rates and overall spatial distribution within a host halo. Haloes in cosmological
+simulations grow by a combination of relatively smooth accretion and more violent mergers,
+and both processes will modify subhalo orbits. To isolate the impact of the smooth growth of the
+host halo from other relevant mechanisms, we study subhalo orbital evolution using numerical
+calculations in which subhaloes are modelled as massless particles orbiting in a time-varying
+spherical potential. We find that the radial action of the subhalo orbit decreases over the first
+few orbits, indicating that the response to the growth of the host halo is not adiabatic during this
+phase. The subhalo orbits can shrink by a factor of ∼1.5 in this phase. Subsequently, the radial
+action is well conserved and orbital contraction slows down. We propose a model accurately
+describing the orbital evolution. Given these results, we consider the spatial distribution of the
+population of subhaloes identified in high-resolution cosmological simulations. We find that it
+is consistent with this population having been accreted at 𝑧 <
+∼
+3, indicating that any subhaloes
+accreted earlier are unresolved in the simulations. We also discuss tidal stripping as a formation
+scenario for NGC1052-DF2, an ultra diffuse galaxy significantly lacking DM, and find that
+its expected DM mass could be consistent with observational constraints if its progenitor was
+accreted early enough, 𝑧 >
+∼
+1.5, although it should still be a relatively rare object.
+Key words: galaxies: haloes – galaxies: kinematics and dynamics – cosmology: dark matter
+– methods: numerical
+1 INTRODUCTION
+In the standard paradigm for structure formation in the Universe, the
+Λ cold dark matter (ΛCDM) cosmological model, small dark matter
+(DM) haloes form early on through gravitational collapse, and then
+merge to form larger structures subsequently. At the same time,
+baryonic gas cools within haloes over some mass scale, igniting
+galaxy formation. As a result, the hierarchy of observed galaxies
+is formed (e.g., White & Rees 1978; Frenk & White 2012), i.e.,
+smaller DM subhaloes and associated satellite galaxies, orbiting
+within larger host systems consisting of a host DM halo and a
+central galaxy. In this paper, we consider the orbital evolution of
+subhaloes in their host halo, given the mass assembly history of the
+latter.
+The orbital parameters of subhaloes are essential in determining their spatial distribution and mass-loss rates, and thus they are
+an important input to observational tests of the nature of DM. For
+instance, in a structure formation scenario based on an alternative
+DM model, warm dark matter (WDM), the primordial density fluctuations on small scales are smoothed out by the free-streaming
+motion of WDM particles, and fewer subhaloes are formed, while
+the minimum halo mass is greater than in the ΛCDM cosmology
+(Bode et al. 2001; Angulo et al. 2013; Lovell et al. 2014; Bose et al.
+2016, and references therein). This should affect both the abundance
+and the spatial distribution of subhaloes, since the formation of the
+earliest, densest structures would be suppressed. Tests of DM based
+on observations of gravitational lensing (e.g., Dalal & Kochanek
+2002; Vegetti et al. 2012; Shu et al. 2015; Hezaveh et al. 2016),
+gaps in stellar streams (e.g., Carlberg 2012; Ngan & Carlberg 2014;
+Erkal et al. 2016; Ibata et al. 2020), and annihilation or decay signals
+of DM particles (e.g., Strigari et al. 2007; Pieri et al. 2008; Hayashi
+et al. 2016; Hiroshima et al. 2018; Okoli et al. 2018) also depend
+strongly on the expected abundance, spatial distribution and mass
+function of DM subhaloes.

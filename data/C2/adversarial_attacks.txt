@@ -1,0 +1,48 @@
+Deep learning is at the heart of the current rise of artificial intelligence. In the field of computer
+vision, it has become the workhorse for applications ranging from self-driving cars to surveillance and
+security. Whereas, deep neural networks have demonstrated phenomenal success (often beyond human
+capabilities) in solving complex problems, recent studies show that they are vulnerable to adversarial attacks
+in the form of subtle perturbations to inputs that lead a model to predict incorrect outputs. For images,
+such perturbations are often too small to be perceptible, yet they completely fool the deep learning models.
+Adversarial attacks pose a serious threat to the success of deep learning in practice. This fact has recently
+led to a large influx of contributions in this direction. This paper presents the first comprehensive survey on
+adversarial attacks on deep learning in computer vision. We review the works that design adversarial attacks,
+analyze the existence of such attacks and propose defenses against them. To emphasize that adversarial
+attacks are possible in practical conditions, we separately review the contributions that evaluate adversarial
+attacks in the real-world scenarios. Finally, drawing on the reviewed literature, we provide a broader outlook
+of this research direction.
+INDEX TERMS Deep learning, adversarial perturbation, black-box attack, white-box attack, adversarial
+learning, perturbation detection.
+I. INTRODUCTION
+Deep Learning [1] is providing major breakthroughs in solving the problems that have withstood many attempts of
+machine learning and artificial intelligence community in
+the past. As a result, it is currently being used to decipher
+hard scientific problems at an unprecedented scale, e.g. in
+reconstruction of brain circuits [2]; analysis of mutations in
+DNA [3]; prediction of structure-activity of potential drug
+molecules [4], and analyzing the particle accelerator data [5]
+[6]. Deep neural networks have also become the preferred
+choice to solve many challenging tasks in speech recognition [7] and natural language understanding [8].
+In the field of Computer Vision, deep learning became the
+center of attention after Krizhevsky et al. [9] demonstrated the
+impressive performance of a Convolutional Neural Network
+(CNN) [10] based model on a very challenging large-scale
+visual recognition task [11] in 2012. A significant credit for
+the current popularity of deep learning can also be attributed
+to this seminal work. Since 2012, the Computer Vision community has made numerous valuable contributions to deep
+learning research, enabling it to provide solutions for the
+problems encountered in medical science [21] to mobile
+applications [179]. The recent breakthrough in artificial intelligence in the form of tabula-rasa learning of AlphaGo
+Zero [14] also owes a fair share to deep Residual Networks
+(ResNets) [15] that were originally proposed for the task of
+image recognition.
+With the continuous improvements of deep neural network
+models [15], [144], [166]; open access to efficient deep learning software libraries [175]–[177]; and easy availability of
+hardware required to train complex models, deep learning
+is fast achieving the maturity to enter into safety and security critical applications, e.g. self driving cars [12], [180],
+surveillance [13], maleware detection [34], [107], drones and
+robotics [155], [178], and voice command recognition [7].
+With the recent real-world developments like facial recognition ATM [181] and Face ID security on mobile phones [182],
+it is apparent that deep learning solutions, especially those
+originating from Computer Vision problems are about to play
+a major role in our day-to-day lives.
