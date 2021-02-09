@@ -132,7 +132,7 @@ def save(model_config):
         object.
     """
     model_name = model_config["name"].lower().replace(" ", "_")
-    file_name = f"cefr-{model_name}.pickle"
+    file_name = f"models/cefr-{model_name}.pickle"
     print(f"Saving {file_name}")
     pickle.dump(model_config["model"], open(file_name, "wb"))
 
