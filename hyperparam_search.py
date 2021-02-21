@@ -1,10 +1,9 @@
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 from sklearn.svm import SVC
-import xgboost as xgb
+from xgboost import XGBClassifier
 from skopt import BayesSearchCV
-import pickle
 
 from util import load_data, save_model
 from evaluate_model import generate_confusion_matrix
@@ -16,51 +15,8 @@ def compare_models():
     """Compares several classifiers by performing Beyesian optimization on each one and
     then ranking the results.
     """
-
-    model_configs = [
-        {
-            "name": "Logistic Regression",
-            "model": LogisticRegression(random_state=RANDOM_SEED),
-            "params": {
-                "C": (0.1, 10),
-                "fit_intercept": [True, False],
-                "max_iter": (100, 1000),
-            },
-        },
-        {
-            "name": "Random Forest",
-            "model": RandomForestClassifier(random_state=RANDOM_SEED),
-            "params": {
-                "bootstrap": [True, False],
-                "max_depth": (10, 100),
-                "max_features": ["auto", "sqrt"],
-                "min_samples_leaf": (1, 5),
-                "min_samples_split": (2, 10),
-                "n_estimators": (100, 500),
-            },
-        },
-        {
-            "name": "SVC",
-            "model": SVC(random_state=RANDOM_SEED),
-            "params": {"C": (0.1, 10), "gamma": (0.0001, 0.1)},
-        },
-        {
-            "name": "XGBoost",
-            "model": xgb.XGBClassifier(
-                objective="multi:softprob", random_state=RANDOM_SEED
-            ),
-            "params": {
-                "learning_rate": (0.01, 0.5),
-                "max_depth": (1, 10),
-                "subsample": (0.8, 1.0),
-                "colsample_bytree": (0.8, 1.0),
-                "gamma": (0, 5),
-                "n_estimators": (10, 500),
-            },
-        },
-    ]
-
     train, test = load_data()
+    model_configs = get_model_configs()
 
     results = []
     for model in model_configs:
@@ -108,7 +64,62 @@ def hyperparam_search(model_config, train, test):
     for param, value in opt.best_params_.items():
         print(f"- {param}: {value}")
     print("\n")
-    return {"name": model_config["name"], "model": opt.best_estimator_, "score": acc}
+    return {
+        "name": model_config["name"],
+        "class": model_config["class"],
+        "model": opt.best_estimator_,
+        "params": opt.best_params_,
+        "score": acc,
+    }
+
+
+def get_model_configs():
+    return [
+        {
+            "name": "Logistic Regression",
+            "model": LogisticRegression(random_state=RANDOM_SEED),
+            "class": LogisticRegression,
+            "params": {
+                "C": (0.1, 10),
+                "fit_intercept": [True, False],
+                "max_iter": (100, 1000),
+            },
+        },
+        {
+            "name": "Random Forest",
+            "model": RandomForestClassifier(random_state=RANDOM_SEED),
+            "class": RandomForestClassifier,
+            "params": {
+                "bootstrap": [True, False],
+                "max_depth": (10, 100),
+                "max_features": ["auto", "sqrt"],
+                "min_samples_leaf": (1, 5),
+                "min_samples_split": (2, 10),
+                "n_estimators": (100, 500),
+            },
+        },
+        {
+            "name": "SVC",
+            "model": SVC(random_state=RANDOM_SEED),
+            "class": SVC,
+            "params": {"C": (0.1, 10), "gamma": (0.0001, 0.1)},
+        },
+        {
+            "name": "XGBoost",
+            "model": XGBClassifier(
+                objective="multi:softprob", random_state=RANDOM_SEED
+            ),
+            "class": XGBClassifier,
+            "params": {
+                "learning_rate": (0.01, 0.5),
+                "max_depth": (1, 10),
+                "subsample": (0.8, 1.0),
+                "colsample_bytree": (0.8, 1.0),
+                "gamma": (0, 5),
+                "n_estimators": (10, 500),
+            },
+        },
+    ]
 
 
 def rank_results(results):
