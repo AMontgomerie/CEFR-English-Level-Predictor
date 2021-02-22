@@ -20,7 +20,7 @@ def get_classification_report(model, test_set):
     return classification_report(y_true, y_pred, target_names=LABELS)
 
 
-def get_top_k_accuracy(mode, test_set, k=1):
+def get_top_k_accuracy(model, test_set, k=1):
     X = test_set.drop("label", axis=1)
     y_true = test_set["label"]
     y_proba = model.predict_proba(X)

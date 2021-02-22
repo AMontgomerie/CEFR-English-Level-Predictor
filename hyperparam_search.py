@@ -6,7 +6,7 @@ from xgboost import XGBClassifier
 from skopt import BayesSearchCV
 
 from util import load_data, save_model
-from evaluate_model import generate_confusion_matrix
+from evaluate_model import generate_confusion_matrix, get_top_k_accuracy
 
 RANDOM_SEED = 0
 
@@ -19,9 +19,10 @@ def compare_models():
     model_configs = get_model_configs()
 
     results = []
-    for model in model_configs:
-        best_result = hyperparam_search(model, train, test)
-        generate_confusion_matrix(best_result["model"], test)
+    for configs in model_configs:
+        best_result = hyperparam_search(configs, train, test)
+        print("top 2 accuracy:", get_top_k_accuracy(best_result["model"], test, k=2))
+        print(generate_confusion_matrix(best_result["model"], test))
         save_model(best_result)
         results.append(best_result)
 
@@ -61,9 +62,10 @@ def hyperparam_search(model_config, train, test):
     print(f"Best validation accuracy: {opt.best_score_}")
     print(f"Test set accuracy: {acc}")
     print(f"Best parameters:")
+
     for param, value in opt.best_params_.items():
         print(f"- {param}: {value}")
-    print("\n")
+
     return {
         "name": model_config["name"],
         "class": model_config["class"],
@@ -100,7 +102,7 @@ def get_model_configs():
         },
         {
             "name": "SVC",
-            "model": SVC(random_state=RANDOM_SEED),
+            "model": SVC(random_state=RANDOM_SEED, probability=True),
             "class": SVC,
             "params": {"C": (0.1, 10), "gamma": (0.0001, 0.1)},
         },
