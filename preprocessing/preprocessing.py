@@ -57,6 +57,8 @@ def preprocess(df):
         labels = label_encoder.fit_transform(df.label)
         preproc_df["label"] = labels
 
+    print("Finished preprocessing inputs.")
+
     return preproc_df
 
 
