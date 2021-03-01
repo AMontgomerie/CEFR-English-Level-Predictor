@@ -2,30 +2,28 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
 
-from inference import Model
-from preprocessing.preprocessing import preprocess_list
+from cefr_predictor.inference import Model
 
 app = FastAPI()
 
-model = Model("models/cefr-xgboost.pickle")
+model = Model("cefr_predictor/models/xgboost.joblib")
 
 
-class Texts(BaseModel):
+class TextList(BaseModel):
     texts: List[str] = []
 
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Nothing to see here."}
 
 
 @app.post("/predict")
-def predict(texts: Texts):
-    prepped_data = preprocess_list(texts.texts)
-    preds, probas = model.predict_decode(prepped_data)
+def predict(textlist: TextList):
+    preds, probas = model.predict_decode(textlist.texts)
 
     response = []
-    for text, pred, proba in zip(texts.texts, preds, probas):
+    for text, pred, proba in zip(textlist.texts, preds, probas):
         row = {"text": text, "level": pred, "scores": proba}
         response.append(row)
 

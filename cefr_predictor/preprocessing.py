@@ -4,7 +4,6 @@ import os
 import en_core_web_sm
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 nlp = en_core_web_sm.load()
 
@@ -31,57 +30,22 @@ POS_TAGS = [
 ]
 
 
-def preprocess(df):
-    """Preprocess a full dataset.
+def generate_features(data):
+    """Generate features for a list of texts
 
     Args:
-        df (pandas.DataFrame): the dataset to be processed.
+        data (list[str]): the dataset to be processed.
 
     Returns:
         pandas.DataFrame: the processed features.
-        np.array: the encoded labels.
     """
-    print("Generating features...")
-    preproc_df = df.text.apply(lambda t: pd.Series(preprocess_text(t)))
-    preproc_df = preproc_df.fillna(0)
+    feature_data = []
 
-    print("Scaling features...")
-    scaler = StandardScaler()
-    preproc_df = pd.DataFrame(
-        scaler.fit_transform(preproc_df), columns=preproc_df.columns
-    )
+    for text in data:
+        features = preprocess_text(text)
+        feature_data.append(features)
 
-    if "label" in df.columns:
-        print("Encoding labels...")
-        label_encoder = LabelEncoder()
-        labels = label_encoder.fit_transform(df.label)
-        preproc_df["label"] = labels
-
-    print("Finished preprocessing inputs.")
-
-    return preproc_df
-
-
-def preprocess_list(text_list, labels=None):
-    """Preprocess a list of texts with optional labels.
-
-    Args:
-        text_list (list[str]): the texts to be processed.
-        labels (list[str]): the labels corresponding to the texts
-
-    Returns:
-        pandas.DataFrame: the processed features.
-        np.array: the encoded labels.
-    """
-    features = text_list
-    columns = ["text"]
-
-    if labels:
-        features.append(labels)
-        columns.append("label")
-
-    df = pd.DataFrame(features, columns=columns)
-    return preprocess(df)
+    return pd.DataFrame(feature_data)
 
 
 def preprocess_text(text):

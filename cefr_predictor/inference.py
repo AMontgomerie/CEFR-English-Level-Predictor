@@ -1,7 +1,6 @@
 import argparse
 import numpy as np
-import pickle
-from preprocessing.preprocessing import preprocess_list
+from joblib import load
 
 MIN_CONFIDENCE = 0.7
 K = 2
@@ -23,11 +22,10 @@ LABELS = {
 
 class Model:
     def __init__(self, model_path):
-        self.model = pickle.load(open(model_path, "rb"))
+        self.model = load(model_path)
 
     def predict(self, data):
         probas = self.model.predict_proba(data)
-        print(probas)
         preds = [self._get_pred(p) for p in probas]
         probas = [self._label_probabilities(p) for p in probas]
         return preds, probas
@@ -38,10 +36,6 @@ class Model:
         return preds, probas
 
     def _get_pred(self, probabilities):
-        """Get the prediction from a list of probabilities. If the max
-        probability is low, then an average of the max and the second best
-        will be returned instead.
-        """
         if probabilities.max() < MIN_CONFIDENCE:
             return np.mean(probabilities.argsort()[-K:])
         else:
@@ -69,7 +63,15 @@ def parse_text_files():
 
 if __name__ == "__main__":
     texts = parse_text_files()
-    model = Model("models/cefr-xgboost.pickle")
-    prepped_data = preprocess_list(texts)
-    predictions = model.predict(prepped_data)
-    print(predictions)
+    if len(texts) == 0:
+        raise Exception("Specify one or more documents to evaluate.")
+
+    model = Model("cefr_predictor/models/xgboost.joblib")
+    preds, probas = model.predict_decode(texts)
+
+    results = []
+    for text, pred, proba in zip(texts, preds, probas):
+        row = {"text": text, "level": pred, "scores": proba}
+        results.append(row)
+
+    print(results)
