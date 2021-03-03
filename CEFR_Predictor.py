@@ -21,7 +21,7 @@ def app():
         accept_multiple_files=True,
     )
 
-    if st.button("Predict"):
+    if st.button("Predict") or textbox_text:
         input_texts = collect_inputs(textbox_text, uploaded_files)
 
         if input_texts:
@@ -53,6 +53,7 @@ def collect_inputs(textbox_text, uploaded_files):
 
 def display_results(texts, output):
     levels, scores = output
+
     for i, (text, level, score) in enumerate(zip(texts, levels, scores)):
         st.write(f"### Text {i+1}:")
         st.write(f"_{text}_")
