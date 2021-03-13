@@ -56,7 +56,7 @@ class CEFRDataset(Dataset):
         return self.labels
 
 
-def get_data(csv_path, train_size=0.8):
+def get_dataset(csv_path, train_size=0.8):
     data = pd.read_csv(csv_path)
     return CEFRDataset(data["text"], data["label"])
 
