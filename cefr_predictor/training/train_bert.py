@@ -18,7 +18,6 @@ print(f"Using device: {device}")
 
 MODEL_CHECKPOINT = "bert-base-cased"
 SAVE_DIR = "/content/drive/MyDrive/bert-cefr"
-DATA_DIR = "/content/CEFR-English-Level-Predictor/data/cefr_leveled_texts.csv"
 SEQ_LEN = 512
 
 tokenizer = BertTokenizer.from_pretrained(MODEL_CHECKPOINT)
@@ -59,12 +58,7 @@ class CEFRDataset(Dataset):
 
 def get_data(csv_path, train_size=0.8):
     data = pd.read_csv(csv_path)
-    dataset = CEFRDataset(data["text"], data["label"])
-    train_len = int(len(dataset) * train_size)
-    valid_len = len(dataset) - train_len
-    train, valid = random_split(dataset, [train_len, valid_len])
-    print(f"{len(train)} training examples and {len(valid)} validation examples.")
-    return train, valid
+    return CEFRDataset(data["text"], data["label"])
 
 
 def train(train_set, valid_set, epochs=10, warmup_size=0.1, lr=1e-3, batch_size=16):
@@ -122,5 +116,6 @@ def compute_accuracy(pred):
 
 
 if __name__ == "__main__":
-    train_set, valid_set = get_data(DATA_DIR, train_size=0.8)
+    train_set = get_dataset("/content/CEFR-English-Level-Predictor/data/train.csv")
+    valid_set = get_dataset("/content/CEFR-English-Level-Predictor/data/test.csv")
     train(train_set, valid_set, epochs=12, warmup_size=0.2, lr=2e-5, batch_size=16)
