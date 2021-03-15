@@ -1,0 +1,3 @@
+runtime: custom
+env: flex
+#entrypoint: streamlit run CEFR_Predictor.py

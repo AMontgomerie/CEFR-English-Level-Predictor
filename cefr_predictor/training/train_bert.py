@@ -56,7 +56,7 @@ class CEFRDataset(Dataset):
         return self.labels
 
 
-def get_dataset(csv_path, train_size=0.8):
+def get_dataset(csv_path):
     data = pd.read_csv(csv_path)
     return CEFRDataset(data["text"], data["label"])
 
@@ -78,6 +78,7 @@ def train(train_set, valid_set, epochs=10, warmup_size=0.1, lr=1e-3, batch_size=
     )
     trainer.train()
     trainer.save_model()
+    return trainer
 
 
 def get_model(pretrained_checkpoint):
@@ -117,5 +118,10 @@ def compute_accuracy(pred):
 
 if __name__ == "__main__":
     train_set = get_dataset("/content/CEFR-English-Level-Predictor/data/train.csv")
-    valid_set = get_dataset("/content/CEFR-English-Level-Predictor/data/test.csv")
-    train(train_set, valid_set, epochs=12, warmup_size=0.2, lr=2e-5, batch_size=16)
+    train_set, valid_set = torch.utils.data.random_split(train_set, [1000, 195])
+    trainer = train(
+        train_set, valid_set, epochs=12, warmup_size=0.2, lr=2e-5, batch_size=16
+    )
+    test_set = get_dataset("/content/CEFR-English-Level-Predictor/data/test.csv")
+    predictions = trainer.predict(test_set)
+    print(predictions[2])

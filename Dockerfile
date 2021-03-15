@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.7-slim
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
@@ -9,4 +9,5 @@ COPY CEFR_Predictor.py .
 
 EXPOSE 8080
 
-CMD streamlit run --server.port 8080 CEFR_Predictor.py
+CMD streamlit run --server.port 8080 --server.enableCORS false CEFR_Predictor.py 
+#--server.maxUploadSize 50 

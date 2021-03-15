@@ -9,5 +9,5 @@ if __name__ == "__main__":
     train, test = train_test_split(
         data, test_size=0.2, random_state=RANDOM_SEED, stratify=data.label
     )
-    train.to_csv("data/train.csv")
-    test.to_csv("data/test.csv")
+    train.to_csv("data/train.csv", index=False)
+    test.to_csv("data/test.csv", index=False)

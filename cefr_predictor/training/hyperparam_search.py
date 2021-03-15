@@ -5,7 +5,6 @@ from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from skopt import BayesSearchCV
 import pickle
-from evaluate_model import generate_confusion_matrix, get_top_k_accuracy
 
 RANDOM_SEED = 0
 
@@ -21,8 +20,6 @@ def compare_models():
 
     for configs in get_model_configs():
         best_result = hyperparam_search(configs, train, test)
-        print("top 2 accuracy:", get_top_k_accuracy(best_result["model"], test, k=2))
-        print(generate_confusion_matrix(best_result["model"], test))
         save_model(best_result)
         results.append(best_result)
 
