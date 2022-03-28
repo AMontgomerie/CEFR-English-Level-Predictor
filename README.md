@@ -2,6 +2,10 @@
 
 NLP system for predicting the reading difficulty level of a text in terms of its CEFR level.
 
+## Try the Streamlit app
+
+https://share.streamlit.io/amontgomerie/cefr-english-level-predictor/main/CEFR_Predictor.py
+
 ## Run the Streamlit app as a Docker container
 
 ```
